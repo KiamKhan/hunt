@@ -204,6 +204,9 @@ h1, h2, h3, h4, h5, h6, p, ul, li, ol{
     position: relative;
     padding: 238px 0 186px;
     z-index: 1;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 }
 
 .banner_item::after{
@@ -215,16 +218,6 @@ h1, h2, h3, h4, h5, h6, p, ul, li, ol{
     bottom: 0;
     background: rgba(0, 0, 0, 0.6);
     z-index: -1;
-}
-
-.slide_1{
-    background: url(../images/banner.jpg) no-repeat center/cover;
-}
-.slide_2{
-    background: url(../images/banner_2.jpg) no-repeat center/cover;
-}
-.slide_3{
-    background: url(../images/banner_3.jpg) no-repeat center/cover;
 }
 
 .banner_text h2{
@@ -289,11 +282,11 @@ h1, h2, h3, h4, h5, h6, p, ul, li, ol{
     -moz-transition: color linear .3s;
     -ms-transition: color linear .3s;
     -o-transition: color linear .3s;
+    z-index: 10;
 }
 
 #banner .prevArrow{
     left: 60px;
-    z-index: 10;
 }
 
 #banner .nextArrow{
